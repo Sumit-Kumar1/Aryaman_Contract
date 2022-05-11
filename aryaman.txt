@@ -1,0 +1,49 @@
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+on cmd to install rustc and other dependencies
+
+clone https://github.com/agelessZeal/nft-marketplace-rust
+
+open cloned on VS Code
+
+check cargo --version
+
+if not installed, will automatically prompt to install
+
+then in VS Code terminal:
+
+cd /contracts/market-simple
+
+run cargo build
+
+then
+
+on cmd sh -c "$(curl -sSfL https://release.solana.com/v1.10.8/install)"
+
+to install solana
+
+then 
+
+export PATH="/home/darkblood/.local/share/solana/install/active_release/bin:$PATH"
+
+to add to path
+
+and check solana --version
+
+goto any browser and install phantom wallet and set it up
+
+then goto terminal and 
+
+solana airdrop 1 <RECIPIENT_ACCOUNT_ADDRESS> --url https://api.devnet.solana.com
+
+solana confirm -v <TRANSACTION_SIGNATURE>
+
+solana config set --url https://api.devnet.solana.com
+
+solana-keygen new --no-passphrase --no-outfile
+
+//to deploy program now
+
+solana program deploy <PROGRAM_FILEPATH>
+
+
