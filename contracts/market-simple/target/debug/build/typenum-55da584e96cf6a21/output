@@ -1,0 +1,2 @@
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=/home/darkblood/Documents/GitHub/nft-marketplace-rust/contracts/market-simple/target/debug/build/typenum-55da584e96cf6a21/out/consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=/home/darkblood/Documents/GitHub/nft-marketplace-rust/contracts/market-simple/target/debug/build/typenum-55da584e96cf6a21/out/op.rs
